@@ -1,7 +1,9 @@
 # Variables in the tidy data (average.txt)
 
 Acvitities: 180 different activities used in the experiment
+
 Subject : subject ID
+
 Column 3 - 70 show their mean values for each activity. For explanation on Column 3 ~ Column 70, refer to the section '# Signals used in the original data set' below. 
 
 

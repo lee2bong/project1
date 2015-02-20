@@ -66,4 +66,4 @@ write.table(data, "./finalMerged.txt")
 
 average <- aggregate(x=data, by=list(activities=data$activity, subject=data$subject), FUN=mean)
 average <- average[,-c(2,70)]
-write.table(average, "./average.txt")
+write.table(average, "./average.txt", row.name=FALSE)
